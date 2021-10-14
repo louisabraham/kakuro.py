@@ -2,9 +2,9 @@
 
 Very basic but functional [Kakuro](https://en.wikipedia.org/wiki/Kakuro) solver written in Python. It uses a [reduction](http://forum.enjoysudoku.com/how-to-check-for-unique-solution-in-a-kakuro-puzzle-t33617.html) to [exact set cover](en.wikipedia.org/wiki/Exact_cover_problem) and Ali Assaf's elegant [implementation](https://www.cs.mcgill.ca/~aassaf9/python/algorithm_x.html) of [Knuth's Algorithm X](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X).
 
-# Usage
+## Usage
 
-To solve the following Kakuro:
+`kakuro.py` can solve the following Kakuro in less than a minute.
 
 ![Example Kakuro](kakuro.png)
 
@@ -38,6 +38,6 @@ gives
 12301532
 ```
 
-`solve()` is an iterator so you can also use it to check the uniqueness of solutions (however the kakuro above has more than 100M solutions).
+`solve()` is an iterator so you can also use it to check the uniqueness of solutions (however the Kakuro above has more than 100M solutions).
 
 Note: the current code assumes that the grid is square, it can be easily modified to support arbitrary grid shapes.
