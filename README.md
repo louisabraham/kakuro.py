@@ -6,7 +6,7 @@ Very basic but functional [Kakuro](https://en.wikipedia.org/wiki/Kakuro) solver 
 
 `kakuro.py` can solve the following Kakuro in less than a minute.
 
-![Example Kakuro](kakuro.png)
+<img src="https://raw.githubusercontent.com/louisabraham/kakuro.py/master/kakuro.png" title="Example Kakuro" width="50%"/>
 
 ```py
 from kakuro import solve
